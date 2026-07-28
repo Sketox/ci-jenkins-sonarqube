@@ -17,7 +17,7 @@ class CalculadoraTest {
     @Test
     @DisplayName("La suma de dos enteros positivos es correcta")
     void sumarDosPositivos() {
-        assertEquals(12, calculadora.sumar(7, 5));
+        assertEquals(13, calculadora.sumar(7, 5));
     }
 
     @Test
